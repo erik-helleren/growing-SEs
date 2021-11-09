@@ -1,0 +1,6 @@
+[book]
+authors = ["Erik Helleren"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Growing Software Engineers"
