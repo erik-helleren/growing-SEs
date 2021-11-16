@@ -5,26 +5,18 @@ One of the most important parts about teaching is confirming that learning has h
 
 Measuring progress and understanding is tricky, and its best to use a mix of methods in different contexts.  
 
-## Teach back
+## Teach-back
 
-Teach back is a technique where the student explains their understanding back to the teacher in their own words.  Using their own words is the most critical part here, because reciting the definition of a test mock object doesn't convey an understanding of mocking.  
+Teach back is a technique where the student teaches their understanding of a subject back to the teacher in their own words.  Teach-back is best employed during modeling and pairing.  
 
-This is best employed during modeling and pairing
+It's the teachers responsibility to probe the students explination, trying to find their boundry of knowledge.  Explinations that are vauge or "hand-wavy" justify follow questions.  Also, using commonly confused terms should be investigated.
 
+Teachback goes beyond just the raw content, to build technical verbal communication skills. If there is an opertunity to make the student's explination more clear or concise, spend the time to work on it.  Apply other methods to tease out larger concepts or labels that can be applied.  
 
-3.  Confirm understanding of lectures and complex new ideas by asking them to explain it back in their own words.  Also called [Teach-back method](http://www.teachbacktraining.org/home).  
+Don't be afraid to go heavy handed with this technique.  It can be applied at the smallest scale like when to use an IllegalArgumentException just as effectivly the largest when describing the system design of several large services the student may be working on.  The more often the student is engaged in discussions like this, the more comfortable they will become with it.  
 
-1.  At the very least, this forces them to repeat the content back.  At the best, it can not only show you the connections they are making as they are learning content
+This also has the benifit of morphing into a skill for the student.  They may start to describe complex problems volentariarily to confirm their own understanding.  They may even start to identify where they are making assumptions.  
 
-2.  Do this frequently at first.  Don't be afraid to go like "Do you feel like you understand X better now?" "Yes I do", "Great, explain it to me in your own words" (Don't feel weird using that exact phrasing the first few times.)
-
-3.  The goal is for the mentee to stop responding with "Yes" the first time and instead go right into confirming their understanding.
-
-4.  Extra resource: <https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html>  Both this and the other link are targeted towards healthcare professionals.  But I do think there is some overlap.  Think of this as the MOST extreme level of teach-back anyone can possibly do: Doctor to random patient.  
-
-5.  Don't be afraid to dive deeper, and use those questions to drive the discussion on the next point.  See Socratic method.  
-
-6.  Erik TODO: How to correct when there are issues with their explanation.
 
 ## A/B Testing
 
