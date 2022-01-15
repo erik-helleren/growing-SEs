@@ -2,7 +2,7 @@
 
 This book is NOT about how to manage software engineering teams.  Its not about how to grow someones career, at least not directly.  
 
-This book is about pratical techniques to quickly and efficiently develop hard skills and thought patterns in the work place.  
+This book is about practical techniques to quickly and efficiently develop hard skills and thought patterns in the work place.  
 
 ## Consent and transparency  
 
@@ -10,7 +10,8 @@ These techniques are not magic.  They become no less powerful if the student kno
 
 
 ## Feedback
-Not only does this let them know you are doing what you are doing, it also opens the door for feedback.  Could you have applied one of these tecniques better?  Outside of having a coach present during your working sessions, your students provide the best feedback.  
+Not only does this let them know you are doing what you are doing, it also opens the door for feedback.  Could you have applied one of these techniques better?  Outside of having a coach present during your working sessions, your students provide the best feedback.  
+
 
 ## Contributions  
 

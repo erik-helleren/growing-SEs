@@ -1,7 +1,7 @@
 # Measurement
 
 
-One of the most important parts about teaching is confirming that learning has happened.  If it has, you can move onto the next concept or skill, or dive a leve ldeeper into the skill you are working on.  But more importantly, it lets you know when it hasn't.  This data lets you adjust the tools and methods that you use to mentor your mentee.  
+One of the most important parts about teaching is confirming that learning has happened.  If it has, you can move onto the next concept or skill, or dive a level deeper into the skill you are working on.  But more importantly, it lets you know when it hasn't.  This data lets you adjust the tools and methods that you use to teach your student.  
 
 Measuring progress and understanding is tricky, and its best to use a mix of methods in different contexts.  
 
@@ -9,24 +9,24 @@ Measuring progress and understanding is tricky, and its best to use a mix of met
 
 Teach back is a technique where the student teaches their understanding of a subject back to the teacher in their own words.  Teach-back is best employed during modeling and pairing.  
 
-It's the teachers responsibility to probe the students explination, trying to find their boundry of knowledge.  Explinations that are vauge or "hand-wavy" justify follow questions.  Also, using commonly confused terms should be investigated.
+It's the teachers responsibility to probe the students explanation, trying to find their boundary of knowledge.  Explications that are vague or "hand-wavy" justify follow questions.  Also, using commonly confused terms should be investigated.
 
-Teachback goes beyond just the raw content, to build technical verbal communication skills. If there is an opertunity to make the student's explination more clear or concise, spend the time to work on it.  Apply other methods to tease out larger concepts or labels that can be applied.  
+Teachback goes beyond just the raw content, to build technical verbal communication skills. If there is an opportunity to make the student's explanation more clear or concise, spend the time to work on it.  Apply other methods to tease out larger concepts or labels that can be applied.  
 
-Don't be afraid to go heavy handed with this technique.  It can be applied at the smallest scale like when to use an IllegalArgumentException just as effectivly the largest when describing the system design of several large services the student may be working on.  The more often the student is engaged in discussions like this, the more comfortable they will become with it.  
+Don't be afraid to go heavy handed with this technique.  It can be applied at the smallest scale like when to use an IllegalArgumentException just as effectively the largest when describing the system design of several large services the student may be working on.  The more often the student is engaged in discussions like this, the more comfortable they will become with it.  
 
-This also has the benifit of morphing into a skill for the student.  They may start to describe complex problems volentariarily to confirm their own understanding.  They may even start to identify where they are making assumptions.  
+This also has the benefit of morphing into a skill for the student.  They may start to describe complex problems voluntarily to confirm their own understanding.  They may even start to identify where they are making assumptions.  
 
 
 ## A/B Testing
 
-1.  A/B testing.  Come up with 2 solutions to the vague problem, where A is better than B.  Ask the mentee to consider both options, do any research they need to come to a conclusion, and come back with an argument in favor of A or B.    This can be used to both guide, and evaluate growth.  
+1.  A/B testing.  Come up with 2 solutions to the vague problem, where A is better than B.  Ask the student to consider both options, do any research they need to come to a conclusion, and come back with an argument in favor of A or B.    This can be used to both guide, and evaluate growth.  
 
 1.  Cons
 
 1.  Requires double the prework on your part. 
 
-2.  Puts the mentee in a position to "pick wrong" from a situation which was open ended with many correct answers.
+2.  Puts the student in a position to "pick wrong" from a situation which was open ended with many correct answers.
 
 3.  It shuts the door to C, which is the best option, hands down, that you didn't think of yourself.
 
