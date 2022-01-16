@@ -1,4 +1,9 @@
-# Chapter 1
+# Teaching 
+
+This section is focused on the act of teaching.  We define teaching as the act of sharing knowledge with and the development then refinement of though processes in a student.    
+
+
+TODO refine the rest of this content
 
 Also, a lot of the resources I pull may be about "teaching" "students", this is because there is a lot of theory, data, and practice around formal education.  The best techniques use blended resources (videos, readings, lecture notes), instruction (lecture, modeling), critical thinking (socratic method, reflection exercises), application (practice doing), and formative assessments (Designed to measure where more focus is needed, not so much to assign a grade).  In general, a lot of the stuff discussed in "how to be a better teacher" books, especially those targeted towards STEM teachers, are skills useful for a mentor for JR staff.  Teachers have to efficiently build new skills and behaviors, seeing students typically for 45 min each day, 20-30 at a time.   Books on coaching are often better for mentoring employees as they transition to Sr and beyond.   But both classes of book, in my experience, have ideas useful regardless of career level.
 

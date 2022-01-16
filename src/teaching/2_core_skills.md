@@ -2,7 +2,7 @@
 
 Here are a set of core concepts to keep in mind when helping others grow
 
-## They are human
+## Students are human
 
 One of Sprout's core values is to care deeply, so I would be remiss if I did not stress this as the first and arguably most important item in this book: Your student is a human. I know this seems pretty obvious, but it can't be stressed enough.  Humans want to feel valued, appreciated, and like they are making progress towards growth.  They also make mistakes as they grow. Always teach with *compassion first*.   
 
@@ -31,18 +31,20 @@ Lastly, sometimes our students come to us at different levels, which can warp ou
 
 These are things which, at the very least, are not fully in the control of the student which impacts their starting point.  So be kind and understanding, and meet them where they are.  Thats the only way for you to have an impact on where they are going.  
 
-## Teachers teach
+## Always be a student
 
-Being a teacher is defined based on an instantaneous action.  This makes "teacher" a transient state, as is "student".  When in teaching mode, the goal is to impart knowledge and the mindset, often, is that of the expert.  This is dangerous as it can inflate egos very quickly.  
+Being a teacher is defined based on intention and action in the moment.  You are only a teacher when you are teaching.  When in teaching mode, the goal is to impart knowledge and the mindset, often, is that of the expert.  This can inflate egos very quickly.  
 
-A key skill that you have to develop quickly is the ability to switch from teacher to student.  The members of your team should be treated as peers, regardless of title, who deserves to have their skills and knowledge respected.  The best way to show that respect is, when they want to teach, shift quickly and without ego into student mode.    
+At the same time, there is always something we can learn from our team members.  We can always benefit from being the student, and can always learn something new.
 
-This has many benefits:  First, you show your peer how much they are valued.  They get to grow their teaching skills.  You may get to learn something new about software or about your peer.  You may even see new teaching strategies being applied, making you a better teacher.  
+A key skill for you is the ability to switch off teacher mode to focus on being a student.  The members of your team should be treated as peers, regardless of title, who deserves to have their skills and knowledge respected.  The best way to show respect is to shift quickly and without ego into student mode when they have something to offer.      
+
+This has many benefits:  First, your peer will feel valued for their skills.  They get to grow their teaching skills.  You may get to learn something new about software or about your peer.  You may even see new teaching strategies being applied, making you a better teacher.  
 
 Please note that this is different from the teachback technique, where the goal is to critique your student as they learn a new concept or skill.  Here, you are a true student.  
 
 ## Documentation
-Sometimes, we get so swept up with one on one interactions that we forget that documentation plays a key role in helping onboard our students to our team.
+Sometimes, we get so swept up with one on one interactions that we forget that documentation plays a key role in helping onboard new team members.  
 
 Some key things that you should try to have documented for your team:
 - Your SDLC, even if its just a standard model.  Having just a link to an external resource is ok.
@@ -62,11 +64,18 @@ Provide a prompt for thought, and then stay out of your student's way.  It can b
 
 Take time to think yourself when working with your student.  If your student seems stuck, and you aren't sure where to go next or what to try, say so and then think about it before running off on the first thought that comes to mind.
 
-## The power of thought
-The goal is to instill behaviors and methods that allow the jr engineer to answer their own questions, develop their own code, deploy their own software, and know when and where to go to the team with ideas, concerns, and opportunities.  
+## Process over result
+
+Do not focus on the result, but instead the process that lead your student to that result.  Correct code can happen by accident, especially for small scope changes in Jr engineers.  
+
+The goal of your teaching should be to instill a rigorous thought process that allow your student to be independent.  They should be able to: ask the right questions, identify their assumptions, answer their own questions thru research, develop their own code, deploy their own software, design systems, and know when to go to the team with ideas, concerns, or opportunities.  Of course, that takes years
 
 ## You are human
 
-You are human too.  You are going to make mistakes, miss opportunities to help your student learn, provide poorly worded feedback, and provide bad advice to name but a few.  Be honest with yourself and your student.  Tell them when you did something wrong and use it as a learning opportunity for both of you.  
+You are human too.  You are going to make mistakes, miss opportunities to help your student learn, provide poorly worded feedback, and provide bad advice.  Be honest with yourself and your student.  If you notice you did something sub-optimal, have a discussion about what happened and how it could have been done better.  Your candor will build trust and respect in while preparing your student to be a better teacher. 
 
-At the end of the day, give yourself permission to mess up on all things except one: Caring about your student.  Everything else is forgivable.     
+First, by discussing *what* you could have handled it better, you reveal you are not some sage with universal knowledge.  Profession teachers all this [the sage on the stage](https://tophat.com/glossary/s/sage-on-the-stage/) model, or the teacher centered model.  It is defined as a 1 way communication model where the teacher knows all, and the students must absorb all.  This is not how engineering works.  By being forthright with your student, they see there is no "one right answer" for how to write code, design software, or architect systems.  This can develop an important skill I call push back, where a Jr engineer will respectfully question the ideas presented by a more Sr engineer or management.  By focusing on what could have been done better, you draw attention to the idea of process over result.  Especially when the end result of your pairing was a merge ready PR, or a resolved production issue.  
+
+Second, by discussing *how* you could have handled the situation better, you improve everyone's ability to teach.  Teaching is a skill, just as engineering is.  And your best teaching teacher is your engineering student.  Sometimes they teach passively, other times, they actively help us grow our teaching skill.  Passive teaching on their part manifests by confusion, misunderstanding, and failing to meet expectations.  This is almost always signal of something.  It could have been the method you used wasn't ideal for the material or their learning style or your technique was just lacking.  It could also have been situational or personal issues that your student was distracted by that impacted the situation.  You will never know if you don't discuss.  Active teaching often presents itself as push back on your suggestions and candid feedback about your teaching style or method.  
+
+At the end of the day, give yourself permission to mess up on all things except one: Caring about your student.  Everything else is just part of your learning process as a teacher.  Your openness and candor with your engineering student can only help you both grow.       

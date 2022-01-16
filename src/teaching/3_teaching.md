@@ -1,6 +1,6 @@
 # Teaching
 
-Teaching is the art and science of fostering learning new concepts.  Learning is done by your mentee, and involves understanding and praticing new concepts or skills. Here I use the word "Pratice" both in the way that you would have a partice exercise in a text book, and where you have a professional pratices where you are iterating and improving on your craft.  The key is improving.  
+Teaching is the art and science of fostering learning new concepts.  Learning is done by your student, and involves understanding and praticing new concepts or skills. Here I use the word "Pratice" both in the way that you would have a partice exercise in a text book, and where you have a professional pratices where you are iterating and improving on your craft.  The key is improving.  
 
 Just because a teacher teaches, doesn't mean that a student learns.  
 
@@ -17,11 +17,11 @@ While modeling, its best to start of with a "i do, we do, you do" process.  For 
 
 Lastly *you do* is where the student does it themselves.  This pulls together the new concepts, and the minuta of writing code that works.  Its important that you pratice paticence, and wait till they ask for help and are stuck or they indicate they are done before providing feedback or advice.  
 
-Don't be afraid to pull the mentee into *your* work to model behaviors.  Pulling them into your refactoring process, or when you are researching a new feature provides a learning experiences for them.  Just be sure to also slow it down a bit, and explain your process.  
+Don't be afraid to pull the student into *your* work to model behaviors.  Pulling them into your refactoring process, or when you are researching a new feature provides a learning experiences for them.  Just be sure to also slow it down a bit, and explain your process.  
 
 ### Pairing
 
-Pairing is distinct from modeling in that the focus is applying moreso than leaning.  Not to say that pairing isn't a great way to learn and grow, just that the focus is different.  As the mentor, its you job to know when you should be in [pairing mode](./pairing.html) vs when you should be in modeling mode.  
+Pairing is distinct from modeling in that the focus is applying moreso than leaning.  Not to say that pairing isn't a great way to learn and grow, just that the focus is different.  As the teacher, its you job to know when you should be in [pairing mode](./pairing.html) vs when you should be in modeling mode.  
 
 
 ## Understand their thought process
@@ -38,7 +38,7 @@ Next, each link that wasn't quite fully flushed out, but was headed in the right
 
 Lastly are links that are just bad.  Approach these carefully.  Try to understand what happened here.  Was it just a new concept that was never learned?  Or was a taught concept that might have been forgotten?  Was it just sloppiness?  Seriously examine the "bad" link before providing feedback.  This might involve delving in a bit more to understand the circumstance.  
 
-By focusing on the thought process instead of the final product it is a bit easier to rationalize feedback.  Sr engineers are constantly trying to improve their thought processes to be more robust, so there is no shame in needing improvement.  This helps stress some of the key points from the core skills page: Your mentee is human and wants to feel like they are meeting expections and improving.  It will aslo take time for them to develop these skills.  It also avoids internalization that some people do where they think "bad work makes me bad at my job".  I know that might seem extream, but its a real concern.  Stressing the following whenever using this technique: 
+By focusing on the thought process instead of the final product it is a bit easier to rationalize feedback.  Sr engineers are constantly trying to improve their thought processes to be more robust, so there is no shame in needing improvement.  This helps stress some of the key points from the core skills page: Your student is human and wants to feel like they are meeting expections and improving.  It will aslo take time for them to develop these skills.  It also avoids internalization that some people do where they think "bad work makes me bad at my job".  I know that might seem extream, but its a real concern.  Stressing the following whenever using this technique: 
 
 1. that the thought process takes years of intentional pratice and feedback to get to your level
 2. Your level isn't perfect
@@ -53,15 +53,15 @@ Lastly, don't be shy of using this tecnhique when the result was "correct".  Thi
 ## Socratic method
 
 
-9.  Get the mentee to come up with the right answer using guided but open ended questions.  AKA the [Socratic Method](https://tilt.colostate.edu/TipsAndGuides/Tip/53#:~:text=What%20is%20the%20Socratic%20Method,the%20students%20views%20and%20opinions.).  One difference is we want to do guided validation of that answer before ending the conversation.
+9.  Get the student to come up with the right answer using guided but open ended questions.  AKA the [Socratic Method](https://tilt.colostate.edu/TipsAndGuides/Tip/53#:~:text=What%20is%20the%20Socratic%20Method,the%20students%20views%20and%20opinions.).  One difference is we want to do guided validation of that answer before ending the conversation.
 
 1.  "is better used to demonstrate complexity, difficulty, and uncertainty than to elicit facts about the world." From [here](https://tilt.colostate.edu/TipsAndGuides/Tip/53)
 
 2.  Resist the urge to clarify everything all at once.  As Socraties, its your job to guide the discussion where it needs to go for right now.
 
-1.  Consider taking notes around areas that might need to be flushed out later, or for the mentee to do self study on.  
+1.  Consider taking notes around areas that might need to be flushed out later, or for the student to do self study on.  
 
-4.  Probably best done with the IDE open on the Mentee side and shared.  You can have yours open too
+4.  Probably best done with the IDE open on the student side and shared.  You can have yours open too
 
 5.  Dealing with incorrectness
 
