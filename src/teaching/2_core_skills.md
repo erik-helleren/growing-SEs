@@ -14,6 +14,8 @@ A career is a marathon, not a sprint.  One that is measured in decades, not wee
 
 All this growth takes time.  The important thing is that there is a positive derivative of skill and that positive derivative is proportional to the effort others put into growing the student.  
 
+>Growth is a process, and a slow one.  Reflect on how long it took to get to where you are today if you ever get frustrated with the pace of progress.  
+
 The growth we see as senior engineers can seem slow to us because we have already ingrained these skills and habits. We see the bug before they have finished the line, or notice the production risk that the unit tests aren't covering on the code review. We have practiced these skills for years and these are skills that get better with practice. They are not learned overnight.  This is especially true for some skills like:
 
 -  Identifying the difference between fact and assumption on the fly
@@ -54,15 +56,18 @@ Some key things that you should try to have documented for your team:
 
 Its important to keep in mind that for Jr engineers just coming into industry, this may be the first time they see some of these concepts.  
 
-## Thinking time
-So often we get the "I am stuck, please help" message on slack, and we show up to our student in troubleshooting mode.  It is natural that we want to join them where they are and fix the problem they are facing as quickly as possible.  This even more tempting as their frustration grows, but, if we can resit, we can make the most out of this teaching opportunity.  
+## Silence is golden
 
-Giving the student time to think is critical.  This involves awkward silences, and not the type of silence where you can check email.  Get a fidget spinner or other quite fidget device if you are like me and find patience difficult.  
+While silence can be awkward, when it comes to growing the skills of software engineers, its importance cannot be understated.  This is also one of the hardest parts about transiting into a teacher mode from a regular peer mode.  Silence makes humans uncomfortable, as does the look of struggle that creeps over our students faces.  
 
-Provide a prompt for thought, and then stay out of your student's way.  It can be uncomfortable for all as they struggle with the question or suggestion.  *Its the silence where the student can practice the skills they need to succeed.*
+But whats really happening in that silence between the prompt and the answer? The short answer is "ENGINEERING"!  Your student is applying their thought process to the prompt, be it a question, comment, or a prod like "Lets try to refactor this code".  The precise process varies from person to person and context to context.  For me, I try to start with a type of internal research to form hypothesis's, I then discarding some and refining the rest using the context, and ultimately make a choice.  At least, thats me at my best.  
 
+> Its the silence between prompt and response where the student can practice the skills they need to succeed. 
 
-Take time to think yourself when working with your student.  If your student seems stuck, and you aren't sure where to go next or what to try, say so and then think about it before running off on the first thought that comes to mind.
+For tactical advice, get comfortable with awkward silence.  I found that shadowing and performing interviews, if allowed at your company, is a great way to practice.  Candidates will invariably get stuck in that uncomfortable silence where you know the answer by can't say anything.  While the expectation varies based on job level and company, you may eventually prod them to the right answer and feel some relief.  Also, if you are like me and find patience difficult, consider a fidget spinner
+
+Lastly, this silence does not need to be synchronous.  Especially for tricky problems or new problem spaces.  By putting in a thinking break, you set everyone up for success.  You can't provide hints or blurt out the answer, and you aren't stressed by having to sit there.  And its more likely to improve the student's outcome if your student is anxious, struggles under pressure, feels uncomfortable brainstorming out loud, or rushes to judgement.  You should stress that the student is still your priority during this break and explain why you are taking the break.  If you are not clear, this technique can come off as dismissive.  
+
 
 ## Process over result
 
@@ -79,3 +84,12 @@ First, by discussing *what* you could have handled it better, you reveal you are
 Second, by discussing *how* you could have handled the situation better, you improve everyone's ability to teach.  Teaching is a skill, just as engineering is.  And your best teaching teacher is your engineering student.  Sometimes they teach passively, other times, they actively help us grow our teaching skill.  Passive teaching on their part manifests by confusion, misunderstanding, and failing to meet expectations.  This is almost always signal of something.  It could have been the method you used wasn't ideal for the material or their learning style or your technique was just lacking.  It could also have been situational or personal issues that your student was distracted by that impacted the situation.  You will never know if you don't discuss.  Active teaching often presents itself as push back on your suggestions and candid feedback about your teaching style or method.  
 
 At the end of the day, give yourself permission to mess up on all things except one: Caring about your student.  Everything else is just part of your learning process as a teacher.  Your openness and candor with your engineering student can only help you both grow.       
+
+
+## Warp up
+
+In this chapter we focused on some common concepts that will be key to your teaching practice.  All of these key skills boil down to two key points.  
+
+First, we are humans thus imperfect.  As such imperfect beings, we should focus instead on growth.  This applies both to our students and ourselves.  The adage that "Life is a journey, not a destination" rings true at work as much as it does at home. 
+
+Second, 
