@@ -33,6 +33,16 @@ Lastly, sometimes our students come to us at different levels, which can warp ou
 
 These are things which, at the very least, are not fully in the control of the student which impacts their starting point.  So be kind and understanding, and meet them where they are.  Thats the only way for you to have an impact on where they are going.  
 
+### Pacing
+
+Pacing is critical as we are introducing new concepts to our students.  If new concepts come too quickly, they become like a flood and proficiency can't be developed.  If they are too slow, our student could become disengaged.  
+
+In general, try to have only a handful of skills at the "fundamental" and "developing -low" levels of proficiency.  Fundamental is defined as exposure to the concept or a rudimentary understanding of the skill.  Developing - low is defined as the first steps in learning a new skill.  The student my have internalized parts of the skill, or learned a few key behaviors, but they still need significant and consistent support to apply the skill.  
+
+These two levels of proficiency are where skills are just starting to form, and where you are most likely to have to put on your teaching hat.  
+
+"Developing - Medium" is where the student can perform many aspects of the skill, but is inconsistent overall.  This is where we shift from primarily teaching to a blend of coaching and teaching, depending on the context.  How know when to pick which is covered in the coaching chapter.  TODO link
+
 ## Always be a student
 
 Being a teacher is defined based on intention and action in the moment.  You are only a teacher when you are teaching.  When in teaching mode, the goal is to impart knowledge and the mindset, often, is that of the expert.  This can inflate egos very quickly.  
@@ -83,7 +93,8 @@ First, by discussing *what* you could have handled it better, you reveal you are
 
 Second, by discussing *how* you could have handled the situation better, you improve everyone's ability to teach.  Teaching is a skill, just as engineering is.  And your best teaching teacher is your engineering student.  Sometimes they teach passively, other times, they actively help us grow our teaching skill.  Passive teaching on their part manifests by confusion, misunderstanding, and failing to meet expectations.  This is almost always signal of something.  It could have been the method you used wasn't ideal for the material or their learning style or your technique was just lacking.  It could also have been situational or personal issues that your student was distracted by that impacted the situation.  You will never know if you don't discuss.  Active teaching often presents itself as push back on your suggestions and candid feedback about your teaching style or method.  
 
-At the end of the day, give yourself permission to mess up on all things except one: Caring about your student.  Everything else is just part of your learning process as a teacher.  Your openness and candor with your engineering student can only help you both grow.       
+Give yourself permission to mess up on all things except one: Caring about your student.  Everything else is just part of your learning process as a teacher.  Your openness and candor with your engineering student can only help you both grow.       
+
 
 
 ## Warp up
