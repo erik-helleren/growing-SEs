@@ -124,7 +124,7 @@ Take a few moments and write down 2 or 3 different types of comments you could p
 
 First, here is an open example which I would put on line 1.  First I commend the extraction of the method, which is clearly what happened based on the name of the method and the arg names.  Next I and asking for a revision.  Thats it.
 
-> Nice job extracting this into a method.  Can you take a second pass on this method?  
+> Nice job extracting this into a method.  Can you take a second pass on the method itself?  
 
 I could make it less open by adding "to improve clarity" reducing the scope of the revision.  
 
