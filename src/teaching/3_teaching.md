@@ -64,25 +64,72 @@ By focusing on the thought process instead of the final product it is a bit easi
 
 Don't be shy of using this technique when the result was "correct".  Worst case, this reinforces the skills they do have, gives them confidence, and gives them an opportunity to practice communication.  Best case, this can reveal subtle bugs in the student's thought process that might cause larger issues later.  
 
-## Socratic method
+
+## Asking good questions
+
+When trying to build critical thinking skills, like engineering, one of the best tools is a good question.  So why is this?  The answer depends on the type of question being asked, and the situation its being deployed in.  
+
+### The open ended question
+
+Open ended questions are most easily defined by defining close-ended questions.  A close ended question is a question with a finite set of options and a clear correct answer.  There is little place in software engineering for close ended questions.  That said, this is a continuum where both extremes are rarely called for in the context of teaching.
+
+Here are some open ended questions to try in a teaching context.  
+
+- "What are some potential solutions?" is a great way to start a brainstorming session
+- "What is the problem we are trying to solve?"
+- "What are you thinking?" Often used to get someone who has been in silent contemplation for a while to discuss where their mind is going
+- "Are there other options you can think of?" After some options have been discussed.  
+- "What are the tradeoffs of A?"  
+- "Which way do you want to proceed?" followed by "Why?" to get commitment first followed by the explication.
+- "Is there a tool that could make this easier?" often asked when refactoring.
+- "So?", "And?", and "Tell me more." are all gentle prods to keep going
 
 
-9.  Get the student to come up with the right answer using guided but open ended questions.  AKA the [Socratic Method](https://tilt.colostate.edu/TipsAndGuides/Tip/53#:~:text=What%20is%20the%20Socratic%20Method,the%20students%20views%20and%20opinions.).  One difference is we want to do guided validation of that answer before ending the conversation.
 
-1.  "is better used to demonstrate complexity, difficulty, and uncertainty than to elicit facts about the world." From [here](https://tilt.colostate.edu/TipsAndGuides/Tip/53)
+The goal with these open ended questions is to exercise the discrete skills underlying software engineering.  Writing correct and serviceable code, understanding requirements, testing, and more.  As skills grow, we expect our students to ask themselves these questions and go about answering them thoroughly and thoughtfully.
 
-2.  Resist the urge to clarify everything all at once.  As Socrates, its your job to guide the discussion where it needs to go for right now.
 
-1.  Consider taking notes around areas that might need to be flushed out later, or for the student to do self study on.  
+> The more open your question, the more developed the students skill must be to answer correctly. 
 
-4.  Probably best done with the IDE open on the student side and shared.  You can have yours open too
+### Leading questions
 
-5.  Dealing with incorrectness
+A leading question in our context is best thought of as a hint disguised as a question.  Leading questions need to be tactfully crafted to deliver just the right amount of direction.  To much, and you risk patronizing your student.  To little and they might not pick up the trail.  
 
-1.  Validate the assumption.  Literally "Lets try to validate that assumption you just made" 
+A leading question has these properties:
+1. Directs to focus on something particular
+2. Open ended enough so the student has to think and communicate a response
+3. Close ended enough so their scope of thought stays focused
 
-2.  <https://ltcconline.net/greenl/courses/TutorTraining/HandlingRightAndWrongAnswers.htm> 
+They can also range from open to closed.  Lets think about a PR which includes this code (Written as psudocode for clarity), lets consider some feedback options.  For both, the focus is on the skill of code readability.  
 
-3.  <https://www.smartclassroommanagement.com/2016/10/22/5-ways-to-respond-to-wrong-answers/>
+``` java
+public static List<String> extracted(int arg0, DbConnection arg1){
+    List<Row> result = arg1.select("select description,id from parts where barcode == ?", arg0).execute();
+    List<String> out = new ArrayList<>();
+    for(int i=0;i<result.size();i++>){
+        Row r = result.get(i);
+        out.add(r.get(0));
+    }
+    return out;
+}
+```
 
-4.
+Take a few moments and write down 2 or 3 different types of comments you could provide on this code.  
+
+First, here is an open example which I would put on line 1.  First I commend the extraction of the method, which is clearly what happend based on the name of the method and the arg names.  Next I and asking for a revision.  Thats it.
+
+> Nice job extracting this into a method.  Can you take a second pass on this method?  
+
+I could make it less open by adding "to improve clarity" reducing the scope of the revision.  
+
+Even less open, we could do something like this:
+
+> Line 1: Nice job extracting this into a method. 
+> 
+> Line 1: Can you think of a better method name and parameter names?
+> 
+> Line 5: Is there a better option than a regular for loop?
+
+As we can see the level of specificity in our questions related to how far the student has developed the skill of writing readable code.    If they are at the foundational level, the latter might be appropriate.  If they are developing, the prior should result in readable code or followup questions.  
+
+
