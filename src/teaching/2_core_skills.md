@@ -4,7 +4,7 @@ Here are a set of core concepts to keep in mind when helping others grow
 
 ## Students are human
 
-One of Sprout's core values is to care deeply, so I would be remiss if I did not stress this as the first and arguably most important item in this book: Your student is a human. I know this seems pretty obvious, but it can't be stressed enough.  Humans want to feel valued, appreciated, and like they are making progress towards growth.  They also make mistakes as they grow. Always teach with *compassion first*.   
+One of Sprout Social's [core values](https://sproutsocial.com/insights/refreshing-sprouts-values/) is to care deeply, so I would be remiss if I did not stress this as the first and arguably most important item in this book: Your student is a human. I know this seems pretty obvious, but it can't be stressed enough.  Humans want to feel valued, appreciated, and like they are making progress towards growth.  They also make mistakes as they grow. Always teach with *compassion first*.   
 
 Properly timed and worded praise communicates your student is on the right path, and helps to increase engagement, keeping you both motivated.  More on positive and negative [feedback](./feedback.html) later.
 
