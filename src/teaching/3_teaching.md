@@ -43,15 +43,21 @@ Pairing is distinct from modeling in that the focus is applying more so than lea
 
 ## Understand their thought process
 
-One of the key parts of developing a quality software engineer is to build a good thought process.  Focusing on the whole thought process, or a *chain of thought*, allows you to inspect each link in that chain to make sure its without fault.  This is a great tool when applying modeling, pairing, and synchronous code review.  It lets you understand why the end state got to be what it is.  But this technique allows us serves as a valuable teaching tool.  
+One of the key parts of developing a quality software engineer is to build a good thought process.  When investigating a though process, I like to envision a mental [mind map](https://en.wikipedia.org/wiki/Mind_map).  Each strand of thought branches outward from the problem, building understanding of the problem, the solution space, investigating the solutions, and so on.  
 
-The final result is just a side effect of the process.  So its important that you are patient and listen to their whole process before providing feedback.  Its tempting to jump in at the first wrong thing, but knowing how they thought after that first fault is just as important as before.  
+While asking for mind maps for larger projects and work items is appropriate, its very high cost.  As such, I recommend conducting frequent and timely mini post mortem interviews.  By asking open ended questions and  is the best way to investigate your students chain of thought.  This is a great tool when applying modeling, pairing, and synchronous code review.  It lets you understand why the end state got to be what it is. 
 
-For each link in the chain that was correct, fully thought out, and intentionally addressed, provide positive feedback.  For example "Yes, you did think about network and system issues correctly when you implemented this exception handling and retry logic."  This is especially important to do if you have a chain with a bad link in the middle.  It can prevent backsliding and self-doubt in some cases, but at the very least, it stresses that you got a 90% instead of a 50%.  
+Like all post mortem's, its value is strongly correlated with the quality of the questions being asked.  So before you start the interview, spend a few moments to create a plan.  
 
-Next, each link that wasn't quite fully flushed out, but was headed in the right direction you get to provide mixed feedback.  This lets the student know they did something right, they just needed to take an extra step or two.  
+- Decide on the scope.  It could be on a single method or a PR.  It can be on a design document or something that the student says they are planning on doing.  
+- Would it be best to start at the result or the problem?  The result is typically best for debugging code quality and correctness issues, and the problem is typically the best place to start for design related questions.  
+- Review the problem and result and try to build your own mental mind map.  
 
-Lastly are links that are just bad.  Approach these carefully.  Try to understand what happened here.  Was it just a new concept that was never learned?  Was it sloppiness or forgetfulness?  Did it depend on a skill that was introduced but the student didn't have the time to develop proficiency? Seriously examine the "bad" link before providing feedback.  This might involve delving in a bit more to understand the circumstance.  
+For each node in the map that was correct, fully thought out, and intentionally addressed, provide positive feedback.  For example "Yes, you did think about network and system issues correctly when you implemented this exception handling and retry logic."  This is especially important to do if you have a map with a bad node or decision in the middle.  Keep going forward after you discuss that bad choice to find the right choices after it.  It can prevent backsliding and self-doubt around the skills that they already have in the bag.  It stresses that to the student that they got a 90% instead of a 50%.  
+
+Next, each node that wasn't quite fully flushed out, but was headed in the right direction you get to provide mixed feedback.  This lets the student know they did something right, they just needed to take an extra step or two.  
+
+Lastly are nodes that are just bad.  Approach these carefully.  Try to understand what happened here.  Was it just a new concept that was never learned?  Was it sloppiness or forgetfulness?  Did it depend on a skill that was introduced but the student didn't have the time to develop proficiency? Seriously examine the "bad" node before providing feedback.  This might involve delving in a bit more to understand the circumstance.  
 
 By focusing on the thought process instead of the final product it is a bit easier to provide high value and actionable feedback.  Stress with your student that Sr engineers are constantly trying to improve their thought processes to be more robust, so there is no shame in needing improvement.  Remember: Your student is human and wants to feel like they are meeting expectations and growing.  It will also take time for them to develop these skills.   Stressing the following whenever using this technique: 
 
@@ -60,7 +66,7 @@ By focusing on the thought process instead of the final product it is a bit easi
 3. You are trying to improve as well
 4. The expectation is to improve over time, not to get to perfect.  
 
-> Examine the chain of thought one link at a time.  Provide feedback on each link to reinforce good habits and developed skills while providing specific things to change.  
+> Examine the mental mind map one node at a time.  Provide feedback on each node to reinforce good habits and constructive feedback that is hyper targeted.
 
 Don't be shy of using this technique when the result was "correct".  Worst case, this reinforces the skills they do have, gives them confidence, and gives them an opportunity to practice communication.  Best case, this can reveal subtle bugs in the student's thought process that might cause larger issues later.  
 
@@ -116,7 +122,7 @@ public static List<String> extracted(int arg0, DbConnection arg1){
 
 Take a few moments and write down 2 or 3 different types of comments you could provide on this code.  
 
-First, here is an open example which I would put on line 1.  First I commend the extraction of the method, which is clearly what happend based on the name of the method and the arg names.  Next I and asking for a revision.  Thats it.
+First, here is an open example which I would put on line 1.  First I commend the extraction of the method, which is clearly what happened based on the name of the method and the arg names.  Next I and asking for a revision.  Thats it.
 
 > Nice job extracting this into a method.  Can you take a second pass on this method?  
 
