@@ -4,3 +4,8 @@ language = "en"
 multilingual = false
 src = "src"
 title = "Growing Software Engineers"
+
+
+[output.html]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
+mathjax-support = true

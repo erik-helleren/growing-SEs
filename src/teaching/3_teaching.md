@@ -8,12 +8,12 @@ Just because a teacher teaches, doesn't mean that a student learns.
 
 Lectures are a one directional flow of knowledge from presenter to audience member. When used in isolation, it doesn't support the deep understanding our engineers need.  As such, very few situations call for significant lecturing.  Exceptions typically have several of these traits: 
 
-- It is difficult for a student to do self directed research on the subject.  
+- It is difficult for a student to do self directed research on the subject because:  
   - There is limited content on the subject.
   - Significant existing content is misleading or wrong.
-  - Its difficult to know where to start without a lot of context
-- There is a large body of knowledge that is required before it can be applied.  
-- The subject is very theoretical
+  - Its difficult to know where to start without a lot of context.
+- There is a large body of theoretical knowledge that is required before it can be applied.  
+- The subject is very theoretical and difficult to apply all together.
 
 If you feel the need to lecture, its key that you prepare, preserve your lecture, and present well.  Preparation should consist of documentation describing the content you will be covering in enough depth to convey the subject you are covering.  Those notes don't need to be perfect, but they should be made available before your presentation and updated just after.  Likewise, preserve your lectures as often as possible via a recording.  It should capture your first and foremost.  Your slides should be an afterthought.  
 
@@ -40,6 +40,12 @@ Don't be afraid to pull the student into your work to model behaviors.  Pulling
 
 Pairing is distinct from modeling in that the focus is applying more so than leaning.  Not to say that pairing isn't a great way to learn and grow, just that the focus is different.  As the teacher, its you job to know when you should be in [pairing mode](./pairing.html) vs when you should be in modeling mode.  
 
+
+## Just tell them
+
+There are a lot of great techniques discussed in the rest of this chapter.  That said, they require a lot of mental labor on both sides of the table.  Without progress, this can lead to frustration.  While a little bit of frustration is a good thing, we want to prevent it from getting out of hand for teacher or student.  
+
+There is no shame in falling back to modeling sometimes as a skill is developing.  In fact is expected as a developing skill is applied in different contexts with different constraints.  Its important that you don't display frustration or act exacerbated.  Acknowledge the situation as new  
 
 ## Understand their thought process
 
@@ -77,7 +83,46 @@ When trying to build critical thinking skills, like engineering, one of the best
 
 ### The open ended question
 
-Open ended questions are most easily defined by defining close-ended questions.  A close ended question is a question with a finite set of options and a clear correct answer.  There is little place in software engineering for close ended questions.  That said, this is a continuum where both extremes are rarely called for in the context of teaching.
+Open ended questions are most easily defined by defining its opposite:  A close ended question is a question with a finite set of options and a clear correct answer.  There is little place in software engineering for close ended questions.  That said, this is a continuum where that extremes are rarely called for in the context of teaching.  
+
+The goal with these open ended questions is to exercise the discrete thinking skills underlying software engineering.  Writing correct and serviceable code, understanding requirements, testing, and more.  So, its important to start out slowly with a questions that are a little more directed.
+
+> The more open your question, the more developed the students skills must be to answer completely. 
+
+
+### Leading questions
+
+A leading question is best thought of as a hint disguised as a question.  They are often used when our student is going off in a non-optimal direction.  Leading questions need to be tactfully crafted to deliver just the right amount of direction.  
+
+A leading question has these properties:
+1. Directs the students focus on something particular
+2. Open ended enough so the student has to think and communicate a response
+3. Close ended enough so their scope of thought stays focused in the right direction
+
+
+A good strategy is to start with the largest scope leading you can think of.  Lets image our student is designing a system that tags web pages.  Tagging a web page is an expensive algorithm that requires considering efficiency, scale, and performance early in the design process. The system may get duplicate pages, some pages are of a higher priority than others to get tagged, and we have to scale the system to many hosts to meet our throughput objectives.  However the student ignored these concerns, and designed a functionally correct system that is difficult to scale. 
+
+Exercise: envision a set of questions that could get the student thinking about these issues from most open/undirected to most closed/directed.
+
+The strategy here being you would start at the largest scope you can think of and narrow the questions down until they are able to get to the answers on their own.  Depending on the students level of proficiency, you can start with a narrower scope to increase their chances of success.  
+
+>This technique requires that the student have been exposed to the required ideas before to have a chance at success.  Don't be afraid to start a level broader than you think the student is capable.
+
+
+#### Sample question stream
+
+Here are some sample questions that could be asked, from most open to most closed. 
+
+- Are there any other concerns for the system that might not be addressed?  This hints that there *is* some issue, but its a weak hint.  It provides no direction about where the issue is or how to fix it.
+- Are we addressing all the non-functional requirements for our tagging system?  This provides a bit more direction, to focus on non-functional requirements.  Often, scalability, security, efficiency/cost, testability, testing coverage are not explicitly stated in a requirements doc, which may make this tricky.
+- Is there any way we can do less work?  This clearly hints that there *is* a more efficient solution, but it puts the student in a position to come up with their own solution.  
+- Can you run a benchmark to make sure that we meet our capacity requirement of 10,000 pages per minute?  This one is great because it gives them a specific skill to apply/build to uncover the issue with their design.  At the same time, we have now reduced the scope to capacity but we didn't note any of the efficiency concerns.  Independent of previous questions, we can hope the student will use real data and notice duplicate pages.  
+- How does the system scale?  This also focus onto just the scaling component, skipping the exercise in benchmarking. 
+- Large jump incoming...
+- Could we use an async queue instead of a synchronous callback?  This is setting up the student to compare two different techniques where they can now weigh the pro's and con's of each.  
+
+
+### Sample open ended questions
 
 Here are some open ended questions to try in a teaching context.  
 
@@ -90,23 +135,9 @@ Here are some open ended questions to try in a teaching context.
 - "Is there a tool that could make this easier?" often asked when refactoring.
 - "So?", "And?", and "Tell me more." are all gentle prods to keep going
 
+### Sample code review
 
-
-The goal with these open ended questions is to exercise the discrete skills underlying software engineering.  Writing correct and serviceable code, understanding requirements, testing, and more.  As skills grow, we expect our students to ask themselves these questions and go about answering them thoroughly and thoughtfully.
-
-
-> The more open your question, the more developed the students skill must be to answer correctly. 
-
-### Leading questions
-
-A leading question in our context is best thought of as a hint disguised as a question.  Leading questions need to be tactfully crafted to deliver just the right amount of direction.  To much, and you risk patronizing your student.  To little and they might not pick up the trail.  
-
-A leading question has these properties:
-1. Directs to focus on something particular
-2. Open ended enough so the student has to think and communicate a response
-3. Close ended enough so their scope of thought stays focused
-
-They can also range from open to closed.  Lets think about a PR which includes this code (Written as psudocode for clarity), lets consider some feedback options.  For both, the focus is on the skill of code readability.  
+They can also range from open to closed.  Lets think about a PR which includes this code (Written as psudocode for clarity), lets consider some feedback options.  For both, we are focusing on developing *code readability*.  
 
 ``` java
 public static List<String> extracted(int arg0, DbConnection arg1){
@@ -137,5 +168,4 @@ Even less open, we could do something like this:
 > Line 5: Is there a better option than a regular for loop?
 
 As we can see the level of specificity in our questions related to how far the student has developed the skill of writing readable code.    If they are at the foundational level, the latter might be appropriate.  If they are developing, the prior should result in readable code or followup questions.  
-
 
